@@ -45,8 +45,8 @@
 }
 @font-face {
     font-family: 'FontAwesome';
-    src: url('//font/fontawesome-webfont.eot?v=4.3.0');
-    src: url('//font/fontawesome-webfont.eot?') format('embedded-opentype'), url('//font/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('//font/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('//font/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('//font/fontawesome-webfont.svg?v=4.3.0') format('svg');
+    src: url('./font/fontawesome-webfont.eot?v=4.3.0');
+    src: url('./font/fontawesome-webfont.eot?') format('embedded-opentype'), url('./font/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('./font/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('./font/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('./font/fontawesome-webfont.svg?v=4.3.0') format('svg');
     font-weight: normal;
     font-style: normal
 }
@@ -14679,7 +14679,7 @@ footer ul li {
     padding-top: 100px
 }
 .home-layout #intro.mobile {
-    background: url(/img/landing.mp4);
+    background: url(/video/landing.mp4);
     background-size: cover
 }
 .home-layout #how-it-works .fa {
@@ -14821,7 +14821,7 @@ footer ul li {
     opacity: 0.7
 }
 #skroll-background-intro>div {
-    background-image: url(/img/landing.mp4)
+    background-image: url(/video/landing.mp4)
 }
 .parallax-image-wrapper {
     position: fixed;
@@ -14911,7 +14911,7 @@ video#background-video {
     z-index: -100;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(//img/poster.png) no-repeat;
+    background: url(./img/poster.png) no-repeat;
     background-size: cover
 }
 .text-center.after {
