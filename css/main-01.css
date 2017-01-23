@@ -1,4 +1,7 @@
-@import url("//fonts.googleapis.com/css?family=Lato:300,400,700,300italic");
+@import url("http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic");
+
+.icntitle {font-weight:bold; margin-bottom:20px}
+.container__inner {background-color:#c2183f!important;}
 .list-group-item.autoform-array-item>div {
     display: table
 }
@@ -14677,7 +14680,7 @@ footer ul li {
     padding-top: 100px
 }
 .home-layout #intro.mobile {
-    background: url(/video/landing.mp4);
+    background: url(./video/landing.mp4);
     background-size: cover
 }
 .home-layout #how-it-works .fa {
@@ -14690,7 +14693,7 @@ footer ul li {
     background-color: #00a1ff
 }
 .home-layout #ipad h3 {
-    padding-top: 100px
+    padding-top: 20px
 }
 .home-layout #ipad img {
     width: 600px;
